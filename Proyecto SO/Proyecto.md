@@ -79,12 +79,12 @@ Durante la evaluación, específicamente en la Prueba 4 del modo con 3 hilos, se
 ### Ejecución en Ubuntu
 A continuación, se presentan las evidencias de la terminal que demuestran la ejecución exitosa del programa y la correcta sincronización de los hilos en el sistema operativo huésped.
 
-![Figura 1](nombre_archivo_figura_1.png)
+![Figura 1](Paralelo3.jpeg)
 *Figura 1: Pruebas realizadas de manera secuencial y paralela utilizando 3 hilos.*
 
 Se observa una clara reducción en el tiempo de procesamiento.
 
-![Figura 2](nombre_archivo_figura_2.png)
+![Figura 2](Paralelo4.jpeg)
 *Figura 2: Pruebas realizadas de manera secuencial y paralela utilizando 4 hilos.*
 
 Esta configuración obtuvo el mejor rendimiento general y los menores tiempos de procesamiento.
@@ -92,10 +92,10 @@ Esta configuración obtuvo el mejor rendimiento general y los menores tiempos de
 ### Comparación grafica
 Para una visualización más clara del impacto del paralelismo, se generaron los siguientes gráficos de barras que contrastan el rendimiento entre las tres modalidades ejecutadas:
 
-![Figura 3](nombre_archivo_figura_3.png)
+![Figura 3](Grafico1.png)
 *Figura 3: Comparación de tiempos de ejecución en las cinco iteraciones de pruebas.*
 
-![Figura 4](nombre_archivo_figura_4.png)
+![Figura 4](Grafico2.png)
 *Figura 4: Promedio global de tiempos de ejecución por método de procesamiento.*
 
 ## Conclusiones
